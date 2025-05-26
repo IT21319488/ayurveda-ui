@@ -1,0 +1,83 @@
+/* Research Objectives */
+.objectives-timeline-section {
+  /* background-color: #24292d; */
+  min-height: 100vh;
+  /* padding: 10px 15px; */
+}
+.objectives-timeline-items {
+  max-width: 1400px;
+  /* margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-right: 40px;
+}
+.objectives-timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #0a0b0c;
+  /* left: calc(50% - 1px); */
+}
+.objectives-timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+.objectives-timeline-item:last-child {
+  margin-bottom: 0;
+}
+.objectives-timeline-item:nth-child(odd) {
+  /* padding-right: calc(50% + 30px); */
+  /* text-align: left; */
+}
+.objectives-timeline-item:nth-child(even) {
+  /* padding-left: calc(50% + 30px); */
+}
+.objectives-timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #030303;
+  position: absolute;
+  /* left: calc(50% - 8px); */
+  left: -7px;
+  border-radius: 50%;
+  top: 50%;
+}
+.objectives-timeline-date {
+  font-size: 18px;
+  color: #030202;
+  margin: 6px 0 15px;
+}
+.objectives-timeline-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 12px 0px #b7cdf4;
+}
+.objectives-timeline-content h3 {
+  font-size: 20px;
+  color: #598dee;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.objectives-timeline-content p {
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.objectives-timeline-content:hover {
+  box-shadow: 0px 3px 12px 0px rgb(25, 200, 200);
+  /* padding-top: 50px; */
+}
+.objectives-section-figure {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.objectives-section-content {
+  margin-top: -10px;
+}
